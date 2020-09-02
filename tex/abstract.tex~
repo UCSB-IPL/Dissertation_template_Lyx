@@ -1,0 +1,15 @@
+%
+%  Abstract
+%
+
+\begin{abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+%todo: max 350 words
+
+MicrowavePhotonics (MWP) is a frequency agile technology for microwave signal
+generations over all RF bands. Particularly, in W band, MWP is more promising for mmW generation at such high frequency than traditional RF circuits due to the low loss of optical fiber. In combination with true time delays (TTDs), which mitigate the beam squint issue incurred by using phase shifters, MWP is particularly suitable for beam forming for mmW phased array antennas (PAA) with ultra-high speed communications.
+
+%\abstractsignature
+\end{abstract}
+
+

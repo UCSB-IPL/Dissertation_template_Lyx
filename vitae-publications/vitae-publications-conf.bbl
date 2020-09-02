@@ -1,0 +1,122 @@
+\patchcmd{\thebibliography}{\chapter*}{\subsubsection*}{}{}
+\renewcommand{\bibname}{Conference Publications}
+\makeatletter
+\renewcommand*{\@biblabel}[1]{\hfill#1.}
+\makeatother
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\bibitem{liu2019true}
+Y.~Liu, B.~Isaac, J.~Kalkavage, E.~Adles, T.~Clark, and J.~Klamkin, {\it True
+  time delay millimeter wave beam steering with integrated optical beamforming
+  network},  in {\em CLEO: Science and Innovations}, pp.~SF3N--6, Optical
+  Society of America, 2019.
+
+\bibitem{liu201993}
+Y.~Liu, B.~Isaac, J.~Kalkavage, E.~Adles, T.~Clark, and J.~Klamkin, {\it 93-ghz
+  signal beam steering with true time delayed integrated optical beamforming
+  network},  in {\em 2019 Optical Fiber Communications Conference and
+  Exhibition (OFC)}, pp.~1--3, IEEE, 2019.
+
+\bibitem{isaac2019efficiency}
+B.~Isaac, S.~Pinna, Y.~Liu, and J.~Klamkin, {\it Efficiency of waveguide
+  uni-traveling-carrier photodiodes for microwave signal generation},  in {\em
+  Optical Fiber Communication Conference}, pp.~Th3B--6, Optical Society of
+  America, 2019.
+
+\bibitem{gambini2019ultra}
+F.~Gambini, Y.~Liu, B.~Song, H.~Zhao, V.~Rosborough, F.~Sang, P.~Velha,
+  S.~Faralli, and J.~Klamkin, {\it Ultra-compact bragg-assisted silicon
+  photonics orbital angular momentum emitter},  in {\em Integrated Photonics
+  Research, Silicon and Nanophotonics}, pp.~ITh3C--4, Optical Society of
+  America, 2019.
+
+\bibitem{klamkin2018integrated}
+J.~Klamkin, Y.~Liu, B.~Song, F.~Sang, and B.~Isaac, {\it Integrated microwave
+  photonic component technologies},  in {\em CLEO: Science and Innovations},
+  pp.~JTh3D--5, Optical Society of America, 2018.
+
+\bibitem{liu2018low}
+Y.~Liu, B.~Isaac, J.~Kalkavage, E.~Adles, T.~Clark, and J.~Klamkin, {\it
+  Low-loss silicon nitride integrated optical beamforming network for wideband
+  communication},  in {\em Proc. SPIE, Terahertz, RF, Millimeter, and
+  Submillimeter-Wave Technology and Applications XI}, vol.~10531, p.~1053118,
+  2018.
+
+\bibitem{liu2018integrated}
+Y.~Liu, F.~Sang, B.~Isaac, J.~Kalkavage, E.~Adles, T.~Clark, and J.~Klamkin,
+  {\it Integrated silicon nitride optical beamforming networks for wideband
+  communications},  in {\em Integrated Photonics Research, Silicon and
+  Nanophotonics}, pp.~ITh3B--4, Optical Society of America, 2018.
+
+\bibitem{klamkin2018indium}
+J.~Klamkin, H.~Zhao, B.~Song, Y.~Liu, B.~Isaac, S.~Pinna, F.~Sang, and
+  L.~Coldren, {\it Indium phosphide photonic integrated circuits: Technology
+  and applications},  in {\em 2018 IEEE BiCMOS and Compound Semiconductor
+  Integrated Circuits and Technology Symposium (BCICTS)}, pp.~8--13, IEEE,
+  2018.
+
+\bibitem{song20183d}
+B.~Song, S.~Pinna, Y.~Liu, L.~Megalini, and J.~Klamkin, {\it 3d hybrid
+  integrated lasers for silicon photonics},  in {\em Silicon Photonics XIII},
+  vol.~10537, p.~105370V, International Society for Optics and Photonics, 2018.
+
+\bibitem{liu2017integrated}
+Y.~Liu, F.~Sang, S.~Pinna, B.~Isaac, J.~Kalkavage, E.~Adles, T.~Clark, and
+  J.~Klamkin, {\it Integrated optical beamforming network for millimeter wave
+  communications},  in {\em 2017 International Topical Meeting on Microwave
+  Photonics (MWP)}, pp.~1--4, IEEE, 2017.
+
+\bibitem{pinna2017integrated}
+S.~Pinna, Y.~Liu, L.~A. Coldren, and J.~Klamkin, {\it Integrated star
+  coupler-based multi-beam lidar},  in {\em 2017 IEEE Avionics and Vehicle
+  Fiber-Optics and Photonics Conference (AVFOP)}, pp.~41--42, IEEE, 2017.
+
+\bibitem{liu2017ring}
+Y.~Liu, A.~Wichman, B.~Isaac, J.~Kalkavage, E.~Adles, T.~Clark, and J.~Klamkin,
+  {\it Ring resonator based integrated optical beam forming network with true
+  time delay for mmw communications},  in {\em 2017 IEEE MTT-S International
+  Microwave Symposium (IMS)}, pp.~443--446, IEEE, 2017.
+
+\bibitem{liu2017ringIPR}
+Y.~Liu, F.~Sang, A.~Wichman, B.~Isaac, J.~Kalkavage, E.~Adles, T.~Clark, and
+  J.~Klamkin, {\it Ring resonator true time delay arrays with sharing
+  optimization for wideband applications},  in {\em Integrated Photonics
+  Research, Silicon and Nanophotonics}, pp.~IW2A--2, Optical Society of
+  America, 2017.
+
+\bibitem{dwivedi2017integrated}
+S.~Dwivedi, B.~Song, Y.~Liu, R.~Moreira, S.~Estrella, L.~Johansson, and
+  J.~Klamkin, {\it Integrated silicon nitride fan-in/fan-out for multi-core
+  fiber interconnects},  in {\em Integrated Photonics Research, Silicon and
+  Nanophotonics}, pp.~IW2A--3, Optical Society of America, 2017.
+
+\bibitem{song2017tunable}
+B.~Song, Y.~Liu, S.~Ristic, and J.~Klamkin, {\it Tunable 3d hybrid integrated
+  silicon photonic external cavity laser},  in {\em 2017 Conference on Lasers
+  and Electro-Optics (CLEO)}, pp.~1--2, IEEE, 2017.
+
+\bibitem{isaac2017hybrid}
+B.~Isaac, Y.~Liu, B.~Song, X.~Xie, A.~Beling, and J.~Klamkin, {\it Hybrid
+  integration of utc-pds on silicon photonics},  in {\em CLEO: Science and
+  Innovations}, pp.~SM4O--1, Optical Society of America, 2017.
+
+\bibitem{dwivedi2017demonstration}
+S.~Dwivedi, B.~Song, Y.~Liu, R.~Moreira, L.~Johanson, and J.~Klamkin, {\it
+  Demonstration of compact silicon nitride grating coupler arrays for fan-out
+  of multicore fibers},  in {\em 2017 Conference on Lasers and Electro-Optics
+  (CLEO)}, pp.~1--2, IEEE, 2017.
+
+\bibitem{liu2016ring}
+Y.~Liu, A.~Wichman, B.~Isaac, J.~Kalkavage, E.~Adles, and J.~Klamkin, {\it Ring
+  resonator delay elements for integrated optical beamforming networks: Group
+  delay ripple analysis},  in {\em Integrated Photonics Research, Silicon and
+  Nanophotonics}, pp.~IW1B--3, Optical Society of America, 2016.
+
+\bibitem{liu2016single}
+Y.~Liu, A.~Wichman, B.~Isaac, J.~Kalkavage, E.~Adlest, T.~Clark, and
+  J.~Klamkin, {\it Single ring resonator delays for integrated optical beam
+  forming networks},  in {\em 2016 IEEE International Topical Meeting on
+  Microwave Photonics (MWP)}, pp.~321--324, IEEE, 2016.
+
+\end{thebibliography}\endgroup
+%\addtocontents{toc}{\protect\setcounter{tocdepth}{3}}

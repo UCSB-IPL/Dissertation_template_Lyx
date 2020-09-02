@@ -1,0 +1,29 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TITLE PAGE INFORMATION %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{Integrated True Time Delays and Optical Beam Forming Networks for Wideband Wireless Communications}
+
+\author{Yuan Liu}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DECLARATIONS FOR FRONT MATTER %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\report{Dissertation} \degree{Doctor of Philosophy} \degreemonth{June} \degreeyear{2019}
+\defensemonth{september} % should be one of the following: March, 
+\defenseyear{2019}
+
+\chair{Professor Jonathan Klamkin}  % this is your advisor
+\othermemberA{Professor Larry A. Coldren} % This is a member of your committee 
+\othermemberB{Professor John E. Bowers} % This is a member of your committee 
+\othermemberC{Professor Clint Schow} % This is a member of your committee (if your department requires 4 members)
+\numberofmembers{4} % should match the number of entries above (chair + othermembers)
+
+\field{Electrical and Computer Engineering}
+\campus{Santa Barbara}
+
+
+%\title{{ University of California \\ Santa Barbara} \linebreak \\  Ph.D. Dissertation}
+%\author{Tom\'as Andrade}
+%\date{2012}

@@ -1,0 +1,48 @@
+\patchcmd{\thebibliography}{\chapter*}{\subsubsection*}{}{}
+\renewcommand{\bibname}{Journal Publications}
+\makeatletter
+\renewcommand*{\@biblabel}[1]{\hfill#1.}
+\makeatother
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
+
+\bibitem{khope2019multi}
+A.~S. Khope, M.~Saeidi, R.~Yu, X.~Wu, A.~M. Netherton, Y.~Liu, Z.~Zhang,
+  Y.~Xia, G.~Fleeman, A.~Spott, {\em et.~al.}, {\it Multi-wavelength selective
+  crossbar switch},  {\em Optics express} {\bf 27} (2019), no.~4 5203--5216.
+
+\bibitem{liu2018ultra}
+Y.~Liu, A.~R. Wichman, B.~Isaac, J.~Kalkavage, E.~J. Adles, T.~R. Clark, and
+  J.~Klamkin, {\it Ultra-low-loss silicon nitride optical beamforming network
+  for wideband wireless applications},  {\em IEEE Journal of Selected Topics in
+  Quantum Electronics} {\bf 24} (2018), no.~4 1--10.
+
+\bibitem{dwivedi2018multicore}
+S.~Dwivedi, S.~Pinna, R.~Moreira, Y.~Liu, B.~Song, S.~Estrella, L.~Johansson,
+  and J.~Klamkin, {\it Multicore fiber link with sin integrated fan-out and inp
+  photodiode array},  {\em IEEE Photonics Technology Letters} {\bf 30} (2018),
+  no.~22 1921--1924.
+
+\bibitem{liu2017tuning}
+Y.~Liu, A.~Wichman, B.~Isaac, J.~Kalkavage, E.~J. Adles, T.~R. Clark, and
+  J.~Klamkin, {\it Tuning optimization of ring resonator delays for integrated
+  optical beam forming networks},  {\em Journal of Lightwave Technology} {\bf
+  35} (2017), no.~22 4954--4960.
+
+\bibitem{liu2012high}
+Y.~Liu, B.-s. Wang, S.-y. Xie, Y.~Bo, P.-y. Wang, J.-w. Zuo, Y.-t. Xu, J.-l.
+  Xu, Q.-j. Peng, D.-f. Cui, {\em et.~al.}, {\it High-power narrow-linewidth
+  quasi-cw diode-pumped tem 00 1064 nm nd: Yag ring laser},  {\em Applied
+  optics} {\bf 51} (2012), no.~10 C27--C31.
+
+\bibitem{liu2012compact}
+K.~Liu, F.-Q. Li, Y.~Liu, D.~Cao, Y.~Bo, Q.-J. Peng, D.-F. Cui, J.-Y. Zhang,
+  and Z.-Y. Xu, {\it Compact diode-directly-pumped passively mode-locked tem 00
+  nd: Gdvo 4 laser at 1341 nm using a semiconductor saturable absorber mirror},
+   {\em Laser Physics} {\bf 22} (2012), no.~1 95--99.
+
+\bibitem{xu2011investigation}
+Z.~Xu, S.~Xie, Y.~Bo, J.~Zou, B.~Wang, P.~Wang, Z.~Wang, Y.~Liu, J.~Xu,
+  Q.~Peng, {\em et.~al.}, {\it Investigation of 30w-class second-generation
+  sodium beacon laser},  {\em Acta Optica Sinaca} {\bf 31} (2011) 0900111--1.
+
+\end{thebibliography}\endgroup

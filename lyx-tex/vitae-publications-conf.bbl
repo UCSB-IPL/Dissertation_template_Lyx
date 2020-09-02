@@ -1,0 +1,25 @@
+\patchcmd{\thebibliography}{\chapter*}{\paragraph*}{}{}
+
+\let\oldaddcontentsline\addcontentsline% Store \addcontentsline
+\renewcommand{\addcontentsline}[3]{}% Make \addcontentsline a no-op
+
+\renewcommand{\bibname}{Conference Publications}
+
+\makeatletter
+\renewcommand*{\@biblabel}[1]{#1.\hfil}
+\makeatother
+
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{99}
+
+
+
+\bibitem{liu2019piers}
+{\bf Y.~Liu}, B.~Isaac, J.~Kalkavage, E.~Adles, T.~Clark, and J.~Klamkin, {\it Beamforming 
+with Photonic Integrated Circuits for Millimeter WaveCommunications and Phased 
+Arrays},  in {\em Photonics and Electromagnetics Research Symposium (PIERS)}, pp.~4--8, 2019.
+
+
+\end{thebibliography}\endgroup
+%\addtocontents{toc}{\protect\setcounter{tocdepth}{3}}
+%\patchcmd{\thebibliography}{\paragraph*}{\chapter*}{}{}
+\let\addcontentsline\oldaddcontentsline% Restore \addcontentsline

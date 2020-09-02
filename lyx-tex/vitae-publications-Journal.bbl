@@ -1,0 +1,23 @@
+\patchcmd{\thebibliography}{\chapter*}{\paragraph*}{}{}
+
+\let\oldaddcontentsline\addcontentsline% Store \addcontentsline
+\renewcommand{\addcontentsline}[3]{}% Make \addcontentsline a no-op
+
+\renewcommand{\bibname}{Journal Publications}
+\makeatletter
+\renewcommand*{\@biblabel}[1]{\hfil#1.}
+\makeatother
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{99}
+
+
+\bibitem{liu2018ultra}
+{\bf Y.~Liu}, A.~R. Wichman, B.~Isaac, J.~Kalkavage, E.~J. Adles, T.~R. Clark, and
+  J.~Klamkin, {\it Ultra-low-loss Silicon Nitride Optical Beamforming Network
+  for Wideband Wireless Applications},  {\em IEEE Journal of Selected Topics in
+  Quantum Electronics} {\bf 24} (2018), no.~4 1--10.
+
+
+\end{thebibliography}\endgroup
+%\patchcmd{\thebibliography}{\paragraph*}{\chapter*}{}{}
+\let\addcontentsline\oldaddcontentsline% Restore \addcontentsline
+
